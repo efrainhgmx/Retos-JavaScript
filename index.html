@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Retos JS</title>
 </head>
 <body>
-    <header><p>Soy el header</p>
-    <nav>
-        <ul>
-            <li>item list</li>
-            <li>item list</li>
-            <li>item list</li>
+    <header class="header">
+    <nav class="header__nav--container">
+        <ul class="nav__list">
+            <li class="nav__list--item">Home</li>
+            <li class="nav__list--item">Solución</li>
+            <li class="nav__list--item">Acerca de</li>
         </ul>
     </nav>
     </header>
 
-    <main>
+    <main class="main">
         <h1>Solución a retos de programación en JavaScript</h1>
         <h2>Reto - 1 <span>básico</span></h2>
         <p>Hay que entregar un determinado número de dulces para una cantidad de niños
@@ -31,6 +32,8 @@
         <div id="result"></div>
         <p id="suma"></p>
     </main>
+
+    <footer class="footer">Footer</footer>
     
     <script src="js/index.js"></script>
 </body>
