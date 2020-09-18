@@ -2,9 +2,9 @@ function candiesForChild(kids) {
     let candies = 0;
         for( let i = kids; i > 0; i--) {
             candies += i;
-            result.innerHTML += `<p> Al niño ${i} le tocan ${i} dulces </p>`;
+            result.innerHTML += `<p> Al niño 👦${i} le tocan ${i} dulces 🍭</p>`;
         }
-       totalCandies.innerHTML = `Total de de dulces para ${kids} niños es ${candies} dulces`;
+       totalCandies.innerHTML = `Total de de dulces para <strong>${kids} niños</strong> es <strong>${candies} dulces</strong> 🍬🍭`;
 }
 
 function candy () {
