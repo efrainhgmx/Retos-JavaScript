@@ -27,7 +27,21 @@ body {
 }
 
 .nav__list--item {
+    color: white;
+    display: flex;
+    width: 25%;
+    padding: 10px;
+    flex: 1;
+    transition: flex .8s;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
     border: 1px solid brown;
+}
+
+.nav__list--item:hover {
+    flex: 4;
+    cursor: pointer;
 }
 
 
